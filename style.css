@@ -1,1 +1,172 @@
-/*# sourceMappingURL=style.css.map */
+/* Variables */
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.btn {
+  margin: 24px auto 0 auto;
+  padding: 18px 42px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn-one {
+  background-color: #ff62bf;
+  color: #ffffff;
+  border: none;
+}
+
+/* Navigation */
+.navigation {
+  padding: 30px;
+  position: relative;
+  background-image: url("https://i.postimg.cc/6pJHZGGL/morzeczarnbiel.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  flex-grow: 1;
+}
+
+.navigation ul > li {
+  display: inline-block;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation img {
+  width: 50px;
+  position: fixed;
+}
+.navigation img:hover {
+  transform: scale(1.3);
+  transition: all 1s;
+}
+
+.top-nav a {
+  text-transform: uppercase;
+  flex-grow: 4;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.header-caption {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff62bf;
+}
+.header-caption h1 {
+  word-spacing: 6px;
+}
+.header-caption h4 {
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.header-caption span {
+  font-size: 40px;
+}
+
+/* About */
+.about {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-container h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.main-container {
+  display: flex;
+}
+
+.about img {
+  width: 100px;
+}
+
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.detail-wrapper p {
+  text-align: center;
+}
+
+.about-container hr {
+  border: 0;
+  height: 3px;
+  background: #ff62bf;
+  width: 50px;
+}
+
+/* Info */
+.info-detail {
+  position: relative;
+  background-image: url("https://i.postimg.cc/d3TkdLGC/second-background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.info-detail p {
+  padding-bottom: 100px;
+}
+
+.text-wrapper {
+  width: 30vw;
+  margin-right: 15vw;
+}/*# sourceMappingURL=style.css.map */
